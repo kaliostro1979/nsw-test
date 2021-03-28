@@ -1,0 +1,3 @@
+export const GET_ALL_ITEMS = 'GET/ALL/ITEMS'
+export const SORT_ITEMS_BY_ID = 'SORT/ITEMS/BY/ID'
+export const GET_ALL_ITEMS_CONTENT = 'GET/ALL/ITEMS/CONTENT'

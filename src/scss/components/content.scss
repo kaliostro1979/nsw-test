@@ -1,0 +1,25 @@
+.content-main{
+  position: fixed;
+  left: 100px;
+  top: 100px;
+  right: 0;
+  background-color: green;
+  bottom: 0;
+  overflow-y: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+::-webkit-scrollbar{
+  width: 15px;
+  background-color: lightgray;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rosybrown;
+}
+
+
+.content-item{
+  height: 200px;
+}

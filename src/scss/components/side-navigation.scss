@@ -1,0 +1,28 @@
+.side-navigation{
+  width: 100px;
+  position: fixed;
+  background-color: mistyrose;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  ul{
+    li{
+      margin-top: 30px;
+      .nav-item__icon{
+        width: 30px;
+        background: transparent;
+        border: none;
+        &:focus{
+          outline: none;
+        }
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
